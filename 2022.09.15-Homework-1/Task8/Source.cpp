@@ -1,6 +1,6 @@
 #include <iostream>
-int main(int argc, char* argv[])
-{
+
+int main(int argc, char* argv[]){
 	int a1 = 0;
 	int a2 = 0;
 	int a3 = 0;
@@ -16,5 +16,4 @@ int main(int argc, char* argv[])
 	range = time2 - time1;
 	std::cout << range << std::endl;
 	return EXIT_SUCCESS;
-
 }
