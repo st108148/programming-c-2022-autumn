@@ -1,7 +1,6 @@
 ﻿#include <iostream>
 
-int main(int argc, char* argv[])
-{
+int main(int argc, char* argv[]){
 	int k = 0;
 	int m = 0;
 	int n = 0;
@@ -9,11 +8,10 @@ int main(int argc, char* argv[])
 	std::cin >> k >> m >> n;
 	if (k >= m){
 		time = 2 * m;
-
-	}
+    }
 	else {
 		time = (2 * n / k) * m;
-		 if (n % k != 0 && n % k != k / 2) {
+		if (n % k != 0 && n % k != k / 2){
 			time = time + m;
 		}
 	}
