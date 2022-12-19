@@ -9,7 +9,7 @@ int main(int argc, char* argv[]){
 	if (k >= m){
 		time = 2 * m;
 	}
-	else {
+	else{
 		time = (2 * n / k) * m;
 		if (n % k != 0 && n % k != k / 2){
 			time = time + m;
