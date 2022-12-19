@@ -8,7 +8,7 @@ int main(int argc, char* argv[]){
 	std::cin >> k >> m >> n;
 	if (k >= m){
 		time = 2 * m;
-    }
+	}
 	else {
 		time = (2 * n / k) * m;
 		if (n % k != 0 && n % k != k / 2){
